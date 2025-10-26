@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Writing Portfolio | [Your Name]</title>
+    <title>Technical Writing Portfolio | Taylor Watson</title>
     <style>
         * {
             margin: 0;
@@ -240,6 +240,63 @@
             background: #f8f9fa;
         }
 
+        .contact {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            color: #2d3748;
+            margin-bottom: 30px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #2d3748;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.2s ease;
+            border: 2px solid #e2e8f0;
+        }
+
+        .contact-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            border-color: #667eea;
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-link {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+
         footer {
             background: #2d3748;
             color: white;
@@ -279,8 +336,9 @@
 <body>
     <header>
         <div class="container">
-            <h1>Technical Writing Portfolio</h1>
-            <p>Comprehensive documentation examples for ML infrastructure, developer tools, and API platforms</p>
+            <h1>Taylor Watson</h1>
+            <p>Technical Writing Portfolio</p>
+            <p style="font-size: 1.1rem; margin-top: 20px;">Comprehensive documentation examples for ML infrastructure, developer tools, and API platforms</p>
             <p class="subtitle">Created for the Documentation Engineer position at Baseten</p>
         </div>
     </header>
@@ -398,6 +456,26 @@
             <h2>Ready to Talk?</h2>
             <p>I'm excited about the opportunity to own Baseten's documentation and help developers succeed.</p>
             <a href="https://github.com/taylorwatsonb/technical-writing-portfolio" class="btn">View on GitHub →</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:taylorwatsonb@gmail.com" class="contact-link">
+                    <span class="contact-icon">📧</span>
+                    <span>taylorwatsonb@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/taylorwatsonb/" target="_blank" class="contact-link">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn Profile</span>
+                </a>
+                <a href="https://github.com/taylorwatsonb/technical-writing-portfolio" target="_blank" class="contact-link">
+                    <span class="contact-icon">💻</span>
+                    <span>GitHub Repository</span>
+                </a>
+            </div>
         </div>
     </section>
 
