@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Writing Portfolio | [Your Name]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px 60px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-top: 15px;
+        }
+
+        .intro {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .projects {
+            padding: 60px 20px;
+        }
+
+        .projects-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .projects-header h2 {
+            font-size: 2rem;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #667eea;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        .project-type {
+            display: inline-block;
+            background: #e6f2ff;
+            color: #0066cc;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #4a5568;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .project-card ul {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .project-card ul li {
+            padding: 8px 0;
+            color: #4a5568;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .project-card ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+
+        .skills {
+            background: white;
+            padding: 60px 20px;
+        }
+
+        .skills-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .skills-header h2 {
+            font-size: 2rem;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .skill-category h3 {
+            font-size: 1.2rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category ul li {
+            padding: 6px 0;
+            color: #4a5568;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .cta .btn {
+            background: white;
+            color: #667eea;
+            font-size: 1.1rem;
+            padding: 15px 40px;
+        }
+
+        .cta .btn:hover {
+            background: #f8f9fa;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1.1rem;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-card {
+                padding: 30px;
+            }
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Technical Writing Portfolio</h1>
+            <p>Comprehensive documentation examples for ML infrastructure, developer tools, and API platforms</p>
+            <p class="subtitle">Created for the Documentation Engineer position at Baseten</p>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Building Documentation That Developers Love</h2>
+            <p>
+                This portfolio showcases my ability to create clear, comprehensive documentation for complex technical products.
+                Each project demonstrates different documentation types—from API references to integration tutorials to
+                architecture guides—all focused on ML/AI infrastructure and developer tools.
+            </p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="projects-header">
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <span class="project-type">API Documentation</span>
+                    <h3>StreamInfer API Documentation</h3>
+                    <p>Complete documentation for a real-time ML inference API, demonstrating my ability to create developer-friendly reference docs and onboarding guides.</p>
+                    <ul>
+                        <li>Complete REST API reference</li>
+                        <li>Getting started guide with mental models</li>
+                        <li>5-minute quickstart tutorial</li>
+                        <li>Production best practices</li>
+                        <li>Code examples in Python</li>
+                    </ul>
+                    <a href="./streaminfer-docs/" class="btn">View Documentation →</a>
+                </div>
+
+                <div class="project-card">
+                    <span class="project-type">Integration Guide</span>
+                    <h3>ModelCache Integration Guide</h3>
+                    <p>Multi-part tutorial series on integrating ML caching, showing my ability to explain complex concepts and create framework-specific guides.</p>
+                    <ul>
+                        <li>Step-by-step integration tutorials</li>
+                        <li>Framework patterns (TensorFlow, PyTorch, FastAPI)</li>
+                        <li>Comprehensive configuration reference</li>
+                        <li>Troubleshooting and debugging</li>
+                        <li>Real-world code examples</li>
+                    </ul>
+                    <a href="./modelcache-guide/" class="btn">View Guide →</a>
+                </div>
+
+                <div class="project-card">
+                    <span class="project-type">Architecture Guide</span>
+                    <h3>Production ML Systems Guide</h3>
+                    <p>End-to-end guide to building production ML infrastructure, demonstrating my understanding of complex systems and operational best practices.</p>
+                    <ul>
+                        <li>System architecture patterns</li>
+                        <li>Monitoring and observability</li>
+                        <li>Scaling and performance optimization</li>
+                        <li>Real-world examples from industry</li>
+                        <li>Infrastructure design decisions</li>
+                    </ul>
+                    <a href="./production-ml-guide/" class="btn">View Guide →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <div class="skills-header">
+                <h2>Skills Demonstrated</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Documentation Types</h3>
+                    <ul>
+                        <li>API References</li>
+                        <li>Getting Started Guides</li>
+                        <li>Tutorials & How-Tos</li>
+                        <li>Configuration References</li>
+                        <li>Architecture Guides</li>
+                        <li>Best Practices</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Technical Knowledge</h3>
+                    <ul>
+                        <li>ML/AI Model Deployment</li>
+                        <li>REST APIs & SDKs</li>
+                        <li>Infrastructure & DevOps</li>
+                        <li>Python & Code Examples</li>
+                        <li>Developer Tools</li>
+                        <li>Distributed Systems</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Writing Approach</h3>
+                    <ul>
+                        <li>Mental Model Building</li>
+                        <li>Clear Code Examples</li>
+                        <li>Progressive Disclosure</li>
+                        <li>Docs-as-Code Workflow</li>
+                        <li>Developer-Centric Thinking</li>
+                        <li>Production-Ready Content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Talk?</h2>
+            <p>I'm excited about the opportunity to own Baseten's documentation and help developers succeed.</p>
+            <a href="https://github.com/taylorwatsonb/technical-writing-portfolio" class="btn">View on GitHub →</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Created as part of my application for the Documentation Engineer position at Baseten</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">All projects are original work demonstrating technical writing capabilities</p>
+        </div>
+    </footer>
+</body>
+</html>
