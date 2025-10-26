@@ -1,6 +1,6 @@
 # Technical Writing Portfolio
 
-**Portfolio by [Your Name]**
+**Portfolio by Taylor Watson**
 *Application for Documentation Engineer at Baseten*
 
 ---
@@ -80,6 +80,6 @@ All documentation follows a docs-as-code approach, written in Markdown and struc
 
 ## Contact
 
-[Your contact information]
+📧 Email: taylorwatsonb@gmail.com 
 
 *Created as part of my application for the Documentation Engineer position at Baseten*
