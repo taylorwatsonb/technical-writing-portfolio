@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-1",
+        "name": "Ohio River Crossing Point",
+        "type": "river_crossing",
+        "significance": "Major boundary between slavery and freedom",
+        "danger": "high",
+        "description": "Where the drinking gourd points north across the water",
+        "symbolism": "River Jordan in spirituals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.267, 37.789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-2",
+        "name": "Safe House - Quaker Settlement",
+        "type": "safe_house",
+        "significance": "Station on Underground Railroad",
+        "danger": "medium",
+        "description": "White house with blue shutters, lantern in window",
+        "symbolism": "Light in darkness"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.267, 39.123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-3",
+        "name": "North Star Viewing Point",
+        "type": "navigation_landmark",
+        "significance": "Clear view of Polaris for navigation",
+        "danger": "low",
+        "description": "Hilltop where the drinking gourd points true",
+        "symbolism": "Follow the drinking gourd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.198, 37.912]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-4",
+        "name": "Creek Confluence",
+        "type": "water_source",
+        "significance": "Freshwater and navigation marker",
+        "danger": "medium",
+        "description": "Where two streams meet, follow the larger north",
+        "symbolism": "Living water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.498, 34.545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-5",
+        "name": "Ancient Oak - Meeting Point",
+        "type": "tree_marker",
+        "significance": "Rendezvous point, moss shows north",
+        "danger": "low",
+        "description": "Hollow oak, large enough to hide in",
+        "symbolism": "Tree of life"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.112, 35.045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-6",
+        "name": "Marshland Passage",
+        "type": "terrain_feature",
+        "significance": "Hidden path through wetlands",
+        "danger": "high",
+        "description": "Follow the firm ground, dogs lose scent in water",
+        "symbolism": "Parting of the waters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.878, 38.823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-7",
+        "name": "Mountain Pass",
+        "type": "terrain_feature",
+        "significance": "Natural corridor through mountains",
+        "danger": "medium",
+        "description": "Gap in the ridge, stars visible at night",
+        "symbolism": "Valley of the shadow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.123, 38.123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-8",
+        "name": "AME Church - Secret Shelter",
+        "type": "safe_house",
+        "significance": "Church basement hideaway",
+        "danger": "low",
+        "description": "Ring shout signals all clear",
+        "symbolism": "Sanctuary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.634, 34.067]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-9",
+        "name": "Covered Bridge",
+        "type": "structure",
+        "significance": "Concealed river crossing",
+        "danger": "high",
+        "description": "Cross only at night, guards patrol at dawn",
+        "symbolism": "Bridge over troubled water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.634, 38.456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "landmark-10",
+        "name": "Swamp Edge - Rest Point",
+        "type": "hiding_spot",
+        "significance": "Dense vegetation for concealment",
+        "danger": "medium",
+        "description": "Where the cypress trees grow thick",
+        "symbolism": "Wilderness refuge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.234, 34.567]
+      }
+    }
+  ]
+}

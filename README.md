@@ -7,7 +7,7 @@
 
 ## Overview
 
-This portfolio contains three comprehensive technical writing projects that demonstrate my ability to create clear, developer-focused documentation for complex infrastructure and AI/ML systems. Each project showcases different documentation types and writing styles relevant to the Documentation Engineer role.
+This portfolio contains four comprehensive technical writing and visualization projects that demonstrate my ability to create clear, developer-focused documentation for complex infrastructure, AI/ML systems, and interactive data visualizations. Each project showcases different documentation types and writing styles relevant to the Documentation Engineer role.
 
 ## Featured Projects
 
@@ -56,6 +56,21 @@ A comprehensive guide to production ML infrastructure, featuring:
 
 ---
 
+### 4. Freedom Routes: Enslaved Cartographies & Mental Maps
+**Type:** Interactive Data Visualization + Technical Documentation
+**Focus:** WebGL visualization with React, deck.gl, and d3.js
+
+An interactive WebGL-powered visualization exploring Underground Railroad routes, featuring:
+- React application with deck.gl and react-map-gl integration
+- Animated route visualization with emotional topography
+- Historical WPA slave narrative integration
+- d3.js data processing and geographic calculations
+- Comprehensive technical documentation for data visualization projects
+
+[→ View Freedom Routes Visualization](./freedom-routes/)
+
+---
+
 ## About These Projects
 
 Each project represents a different facet of technical documentation that I believe is critical for developer tools:
@@ -63,6 +78,7 @@ Each project represents a different facet of technical documentation that I beli
 - **StreamInfer** shows my ability to create reference documentation and quickstart guides that reduce time-to-value
 - **ModelCache** demonstrates tutorial writing that builds mental models and guides developers through complex integrations
 - **Production ML Guide** showcases my understanding of ML infrastructure and ability to synthesize best practices into actionable guidance
+- **Freedom Routes** demonstrates technical documentation for interactive visualizations, including architecture guides, data structure documentation, and educational materials
 
 All documentation follows a docs-as-code approach, written in Markdown and structured for easy maintenance and collaboration.
 
@@ -70,11 +86,13 @@ All documentation follows a docs-as-code approach, written in Markdown and struc
 
 - Clear technical writing for complex infrastructure concepts
 - API and SDK documentation
+- Interactive visualization documentation (React, deck.gl, d3.js)
 - Code examples and sample projects (Python, JavaScript, YAML)
-- Multiple documentation types (getting started, reference, tutorials, guides)
+- Multiple documentation types (getting started, reference, tutorials, guides, data viz docs)
 - Developer-centric thinking and mental model building
 - Docs-as-code best practices
 - Understanding of ML/AI deployment concepts
+- WebGL and data visualization technical writing
 
 ---
 

@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-1",
+        "name": "Mississippi to Ohio River Crossing",
+        "description": "Following the North Star along the river paths",
+        "emotionalIntensity": 0.9,
+        "period": "1850s",
+        "navigationMethod": "stars, rivers, moss on trees",
+        "primarySeason": "spring",
+        "narrativeId": "narrative-1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-89.398528, 33.515093],
+          [-89.412, 33.682],
+          [-89.398, 34.123],
+          [-89.234, 34.567],
+          [-89.112, 35.045],
+          [-88.987, 35.489],
+          [-88.754, 36.123],
+          [-88.543, 36.678],
+          [-88.398, 37.234],
+          [-88.267, 37.789]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-2",
+        "name": "Kentucky to Indiana Passage",
+        "description": "Ohio River crossing under moonlight",
+        "emotionalIntensity": 0.85,
+        "period": "1840s",
+        "navigationMethod": "river currents, moonlight, oral directions",
+        "primarySeason": "summer",
+        "narrativeId": "narrative-2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.759, 38.254],
+          [-85.712, 38.345],
+          [-85.634, 38.456],
+          [-85.567, 38.589],
+          [-85.498, 38.712],
+          [-85.423, 38.834],
+          [-85.334, 38.967],
+          [-85.267, 39.123]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-3",
+        "name": "Virginia Mountains to Pennsylvania",
+        "description": "Through the Blue Ridge, following creeks",
+        "emotionalIntensity": 0.75,
+        "period": "1850s",
+        "navigationMethod": "mountain passes, creek beds, safe houses",
+        "primarySeason": "autumn",
+        "narrativeId": "narrative-3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.442, 37.271],
+          [-79.398, 37.412],
+          [-79.334, 37.567],
+          [-79.267, 37.734],
+          [-79.198, 37.912],
+          [-79.123, 38.123],
+          [-79.045, 38.345],
+          [-78.967, 38.578],
+          [-78.889, 38.823],
+          [-78.812, 39.089],
+          [-78.734, 39.367],
+          [-78.656, 39.656]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-4",
+        "name": "Alabama to Tennessee Valley",
+        "description": "Night travel through dense forests",
+        "emotionalIntensity": 0.95,
+        "period": "1850s",
+        "navigationMethod": "darkness, sound of streams, constellations",
+        "primarySeason": "winter",
+        "narrativeId": "narrative-4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-86.799, 33.521],
+          [-86.756, 33.678],
+          [-86.698, 33.856],
+          [-86.634, 34.067],
+          [-86.567, 34.298],
+          [-86.498, 34.545],
+          [-86.423, 34.812],
+          [-86.345, 35.098]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-5",
+        "name": "Maryland Eastern Shore to Delaware",
+        "description": "Harriet Tubman's route through marshlands",
+        "emotionalIntensity": 0.88,
+        "period": "1850s",
+        "navigationMethod": "tidal patterns, marsh paths, coded songs",
+        "primarySeason": "spring",
+        "narrativeId": "narrative-5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-76.176, 38.291],
+          [-76.123, 38.367],
+          [-76.067, 38.456],
+          [-76.009, 38.567],
+          [-75.945, 38.689],
+          [-75.878, 38.823],
+          [-75.812, 38.967],
+          [-75.745, 39.123]
+        ]
+      }
+    }
+  ]
+}

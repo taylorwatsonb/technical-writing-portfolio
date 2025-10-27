@@ -1,0 +1,106 @@
+{
+  "narratives": [
+    {
+      "id": "narrative-1",
+      "title": "Following the Drinking Gourd",
+      "narrator": "Based on WPA Slave Narratives Collection",
+      "period": "1850s",
+      "location": "Mississippi to Ohio",
+      "text": "We traveled by night, always by night. The old folks taught us to find the drinking gourd in the sky—those stars that point to the North Star. When the moon was dark, we moved. When it was full, we hid. The rivers were our roads, flowing north like freedom itself. We'd wade in the water to throw off the dogs, following the current upstream. Every oak tree with moss growing on the north side was a signpost. Every owl's call might be a friend's signal, or a warning.",
+      "navigationElements": [
+        "North Star (Polaris)",
+        "Big Dipper constellation",
+        "River currents",
+        "Moss on trees",
+        "Animal sounds as signals"
+      ],
+      "emotionalTone": "determined",
+      "coordinates": [-89.398528, 33.515093]
+    },
+    {
+      "id": "narrative-2",
+      "title": "The River Jordan",
+      "narrator": "Based on WPA Slave Narratives Collection",
+      "period": "1840s",
+      "location": "Kentucky to Indiana",
+      "text": "The Ohio River was our Jordan. Cross it and you're in the Promised Land. We waited for the right night—no moon, heavy clouds to hide us. The current was strong, but freedom was stronger. An old woman told us: 'When you can't see your hand before your face, that's when you go.' We couldn't swim, but we held onto logs, letting the water carry us. On the other side, there were people waiting, Quakers mostly, with food and dry clothes. They asked no questions, just pointed us further north.",
+      "navigationElements": [
+        "River crossing timing",
+        "Cloud cover for concealment",
+        "Current patterns",
+        "Safe houses markers",
+        "Oral directions from guides"
+      ],
+      "emotionalTone": "fearful but hopeful",
+      "coordinates": [-85.759, 38.254]
+    },
+    {
+      "id": "narrative-3",
+      "title": "Mountain Passages",
+      "narrator": "Based on WPA Slave Narratives Collection",
+      "period": "1850s",
+      "location": "Virginia to Pennsylvania",
+      "text": "The mountains protected us. Up in those hollows, the patrollers couldn't track us easy. We followed the creeks because they always run downhill to bigger water, and bigger water flows north. In autumn, when the leaves fell, we could see further but so could they. We learned to move like deer, stopping often, listening. There were caves where we could rest during the day. Sometimes we'd find food left there—bread, dried meat—left by folks who'd never show their faces but helped anyway.",
+      "navigationElements": [
+        "Creek beds as paths",
+        "Natural caves for shelter",
+        "Seasonal considerations",
+        "Terrain reading",
+        "Hidden supply caches"
+      ],
+      "emotionalTone": "cautious",
+      "coordinates": [-79.442, 37.271]
+    },
+    {
+      "id": "narrative-4",
+      "title": "Night Knowledge",
+      "narrator": "Based on WPA Slave Narratives Collection",
+      "period": "1850s",
+      "location": "Alabama to Tennessee",
+      "text": "We became creatures of darkness. Our eyes learned to see by starlight. We could tell time by the position of the stars, know direction by the feel of wind on our faces. The old ones taught us: 'The forest talks at night.' Every sound meant something—the hush when danger comes, the normal chorus when all is safe. We moved through woods so thick you couldn't see the sky, trusting our feet, our ears, our sense of the land pulling us north. Some nights we walked 20 miles. Some nights we only made five. But every step was toward freedom.",
+      "navigationElements": [
+        "Star positions for time and direction",
+        "Wind patterns",
+        "Forest sounds interpretation",
+        "Spatial awareness in darkness",
+        "Intuitive direction finding"
+      ],
+      "emotionalTone": "resilient",
+      "coordinates": [-86.799, 33.521]
+    },
+    {
+      "id": "narrative-5",
+      "title": "Songs of the Journey",
+      "narrator": "Based on WPA Slave Narratives Collection",
+      "period": "1850s",
+      "location": "Maryland Eastern Shore",
+      "text": "Harriet, they called her Moses, and she had her ways. She taught us songs that were also maps. 'Wade in the Water' meant get off the trail, into the stream. 'Swing Low, Sweet Chariot' meant the boat was coming. The spirituals everybody sang in the quarters, they weren't just about heaven—they were about right here, right now. 'Follow the Drinking Gourd' told us when to leave—when the first quail calls in spring. Every verse was a direction, a warning, a promise. The masters heard one thing, but we heard the truth underneath.",
+      "navigationElements": [
+        "Coded spirituals and songs",
+        "Seasonal markers (quail calls)",
+        "Water routes",
+        "Underground Railroad signals",
+        "Double meanings in language"
+      ],
+      "emotionalTone": "empowered",
+      "coordinates": [-76.176, 38.291]
+    },
+    {
+      "id": "narrative-6",
+      "title": "The Geography of Freedom",
+      "narrator": "Synthesized from WPA Narratives",
+      "period": "1840s-1860s",
+      "location": "The Underground Railroad",
+      "text": "We carried no maps that patrollers could find, but we had maps in our minds, in our songs, in our very bones. Every person who made it north brought back knowledge for the next ones. 'After the big oak, walk until you hear the creek, then turn toward the setting sun until you find the rock that looks like a chair.' Directions passed person to person, coded in stories and songs. The land itself became our map—the North Star our compass, moss our direction finder, rivers our highways. This knowledge couldn't be written down, couldn't be taken from us. It lived in memory, in community, in the determined geography of our freedom dreams.",
+      "navigationElements": [
+        "Oral tradition and memory",
+        "Landscape as text",
+        "Community knowledge networks",
+        "Embodied spatial intelligence",
+        "Celestial navigation"
+      ],
+      "emotionalTone": "profound and collective",
+      "coordinates": [-85.0, 37.0]
+    }
+  ]
+}
